@@ -1,0 +1,74 @@
+<!-- You're going to create an HTML component to represent a political candidate. Specifically, the 
+representative of your Congressional district. 
+Visit the GovTrack site link below, enter in your home address, and you'll find basic information about your representative.
+Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+            <!-- In your HTML, create an article tag that will serve as your main representative component. Give the element a unique identifier.
+            In this component, create a sub-component for basic information using the section tag.
+            In this section create elements for the representative's image, name, district info, and political affiliation. -->
+            <!-- info about main representative -->
+            <article>
+                <section class= "main info">
+                    <!-- image of representative -->
+                    <img src="https://www.govtrack.us/data/photos/400081-100px.jpeg">
+                    <!-- representative name -->
+                    <h1>Jim Cooper</h1>
+                    <!-- representative distric info -->
+                    <h4> Representative for Tennessee's 5th congressional district</h4>
+                    <!-- political affiliation -->
+                    <h4> Democrat</h4>
+                </section>
+                
+                
+                <!-- Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on. -->
+                
+                
+                <section class= "committees">
+                    <ul>
+                        <li>Ranking Member, Subcommittee on Strategic Forces</li>
+                        <li>Member, Subcommittee on Emerging Threats and Capabilities</li>
+                        <li>Member, Subcommittee on Tactical Air and Land Forces</li>
+                        <li>Member, Subcommittee on Healthcare, Benefits, and Administrative Rules</li>
+                    </ul>
+                </section>
+            </article>
+            
+            <!-- The last component will hold links to any legislation that your representative has enacted. -->
+
+            <!-- links to legistlation -->
+                <section class= "Links">
+                    <h4> Links to passed legislation</h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th)</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd)</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.govtrack.us/congress/bills/101/hr5667">H.R. 5667 (101st)</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.govtrack.us/congress/bills/101/hr971">H.R. 971 (101st)</a>
+                        </li>
+                    </ul>
+                </section>
+
+
+
+
+                <script src="main.js"></script>
+        </body>
+</html>
